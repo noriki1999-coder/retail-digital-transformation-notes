@@ -1,0 +1,30 @@
+# Excel Is Not the Problem. Poor Data Architecture Is.
+
+One misconception I often see in digital transformation projects is that Excel is treated as the problem.
+
+It isn't.
+
+Excel is simply a tool.
+
+The real questions should be:
+
+* Where does the data come from?
+* Is there a single source of truth?
+* Can the data be refreshed automatically?
+* Is everyone looking at the same version of the data?
+
+If those questions are answered properly, Excel can become an excellent reporting and analysis tool for many small and medium-sized businesses.
+
+In my opinion, business users should not spend their time thinking about databases.
+
+Business users need answers, not technology.
+
+If an automatically refreshed Excel workbook can provide reliable, consistent, and timely information, then it has already achieved its business objective.
+
+The focus should therefore be on the quality and governance of the data source, rather than replacing Excel simply because it is perceived as "old technology."
+
+A stable Single Source of Truth is far more valuable than adopting the latest data platform without solving the underlying data problems.
+
+Technology should remain behind the scenes.
+
+Business users should only notice that the data is accurate, available, and trustworthy.
