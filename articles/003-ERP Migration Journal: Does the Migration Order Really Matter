@@ -1,0 +1,34 @@
+# ERP Migration Journal: Does the Migration Order Really Matter?
+
+One lesson I've learned during our ERP migration project is that the order in which business units are migrated can significantly influence the overall quality of the implementation.
+
+Many ERP projects choose to migrate the simplest business entities first. From a project management perspective, this approach makes perfect sense. Smaller and less complex businesses are easier to migrate, require less effort, and help the team build momentum. Early successes also increase stakeholder confidence and demonstrate visible progress.
+
+However, I've gradually come to realize that if the objective is not just to go live quickly, but to build a robust ERP platform for the future, migrating the most complex businesses first may actually be the better strategy.
+
+The reason is simple: complex businesses expose the weaknesses in your system design.
+
+ERP migrations are rarely about moving data from one system to another. The real challenge lies in cleaning historical data, standardizing business processes, and validating the underlying data model. Questions such as:
+
+* Is the master data structure designed correctly?
+* Should a particular attribute belong to the product, the purchasing batch, or the inventory transaction?
+* Are users relying on manual workarounds that the current system never documented?
+* Do different departments interpret the same field differently?
+
+These issues often remain hidden when migrating relatively simple business units.
+
+Simple operations may continue to function perfectly well even if the underlying data model has flaws. As a result, the project team may mistakenly believe that the overall design is sound. Only when larger or more complex businesses are migrated do these hidden problems begin to surface—often after core designs have already been finalized, development has been completed, and testing is well underway. At that stage, redesigning the foundation becomes expensive and disruptive.
+
+By contrast, migrating the most complex business first forces these issues to appear much earlier in the project lifecycle.
+
+Although the initial implementation may progress more slowly and involve more challenges, those challenges become valuable opportunities to improve the architecture before additional business units are built on top of it.
+
+From my experience, the migration strategy should depend on the project's primary objective.
+
+If the goal is **speed and rapid delivery**, starting with simpler business units is a practical choice.
+
+If the goal is **long-term system quality and maintainability**, starting with the most complex business units may provide far greater value.
+
+Complex businesses act as a stress test for the ERP design. They validate not only whether the migration works, but whether the underlying architecture is capable of supporting future growth.
+
+In the end, ERP migration is not simply about migrating data. It is about migrating business logic. And the overall success of the project is often determined not by how quickly data is moved, but by how early the project uncovers and resolves the fundamental design issues hidden beneath that data.
